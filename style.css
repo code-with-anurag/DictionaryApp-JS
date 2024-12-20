@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:rgb(44,50,64);
+  
+}
+.container{
+    height:auto;
+    width:100%;
+    background-color:rgb(44,50,64) ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-block:100px;
+}
+.card{
+    height:auto;
+    width:900px; 
+    background-color: rgb(226,227,232);
+    border-radius:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+       
+}
+.rightside{
+   height:580px;
+   width:50%;
+   border-radius:20px;
+   background-color: rgb(255, 248, 248);
+   margin-left:10px;
+   display:flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction: column;
+   gap:20px;
+  
+}
+#miniEnglish{
+   text-align:center;
+   font-size: 2.3rem;
+   font-family: "Libre Baskerville", serif;
+   color:rgb(44,50,64);
+   font-weight: 700;
+}
+i{
+    color:rgb(242,67,40)
+}
+img{
+   height:200px;
+   width:200px; 
+}
+input{
+    height:50px;
+    width:70%;
+    text-align: center;
+    font-size: 1.3rem;
+    border:none;
+    background-color:rgb(226,227,232);
+    border-bottom:3px solid rgb(44,50,64);
+}
+button{
+    height:50px;
+    width:70%;
+    border-radius:30px;
+    background-color:rgb(242,67,40);
+    border:none;
+    font-size: 1.3rem;
+    color:white;
+    font-weight:500;
+    position:relative;
+    bottom:30px;
+}
+button:hover{
+    background-color:rgb(44,50,64);
+    transition:all 0.5s ease-in-out;
+}
+.leftside{
+
+    height:600px;
+    width:50%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    gap:50px;
+    margin-left:50px;
+}
+.leftside-div{
+  height:40px;
+  width:80%;
+  display:flex;
+  justify-content:space-between;
+  align-items: center; 
+  
+}
+.left-side-para{
+   width:70%;
+   font-size:2.5rem;
+   border-bottom:3px solid rgb(44,50,64)
+}
+#sound{
+    font-size: 2rem;
+}
+.meaning{
+    height:100px;
+    width:80%;
+    font-size: 1.2rem;
+    font-family: "Libre Baskerville", serif;
+}
+.heading{
+    width:80%;
+    font-size: 2rem;
+}
+.synonym-div{
+    width:80%;
+    font-size: 2rem;
+}
+.synonym{
+    width:80%;
+   
+}
+#para3{
+    font-size: 1.3rem;
+    height:40px;
+
+}
+
+
+
